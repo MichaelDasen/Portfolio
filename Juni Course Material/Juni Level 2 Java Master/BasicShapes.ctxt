@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=g
+comment0.target=void\ paint(java.awt.Graphics)
+comment0.text=\r\n\ Paint\ method\ for\ applet.\r\n\ \r\n\ @param\ \ g\ \ \ the\ Graphics\ object\ for\ this\ applet\r\n
+comment1.params=g
+comment1.target=void\ ovals(java.awt.Graphics)
+comment2.params=g
+comment2.target=void\ rectangles(java.awt.Graphics)
+comment3.params=g
+comment3.target=void\ pacman(java.awt.Graphics)
+numComments=4

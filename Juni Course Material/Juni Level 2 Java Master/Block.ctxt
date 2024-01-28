@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=row\ column\ c
+comment0.target=Block(int,\ int,\ java.awt.Color)
+comment1.params=
+comment1.target=int\ getRow()
+comment2.params=
+comment2.target=int\ getColumn()
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment4.params=r
+comment4.target=void\ setRow(int)
+comment5.params=cc
+comment5.target=void\ setColor(java.awt.Color)
+comment6.params=cl
+comment6.target=void\ setColumn(int)
+numComments=7
