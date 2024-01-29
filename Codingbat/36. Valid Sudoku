@@ -1,0 +1,46 @@
+class Solution {
+    public boolean isValidSudoku(char[][] board) {
+        // rows
+        for (int i = 0; i < 9; i++) {
+            if (!isValid(board, i, 0, i, 8)) {
+                return false;
+            }
+        }
+        
+        // columns
+        for (int j = 0; j < 9; j++) {
+            if (!isValid(board, 0, j, 8, j)) {
+                return false;
+            }
+        }
+        
+        // 3by3s
+        char[][] boxes = new char[9][9];
+        int box = 0;
+        // top boxes
+        for (int i = 0; i < 9; i++) {
+            int rowStart = (i%3) * 3;
+            int colStart = (i/3) * 3;
+             if (!isValid(board, rowStart, colStart, rowStart + 2, colStart + 2)) {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    private boolean isValid(char[][] board, int row1, int col1, int row2, int col2) {
+        Set<Character> seen = new HashSet<>();
+        for (int i = row1; i <= row2; i++) {
+            for (int j = col1; j <= col2; j++) {
+                char current = board[i][j];
+                if (current != '.') {
+                    if (seen.contains(current)) {
+                        return false; // Duplicate number found
+                    }
+                    seen.add(current);
+                }
+            }
+        }
+        return true;
+    }
+}
