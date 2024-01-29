@@ -1,0 +1,38 @@
+class Solution {
+    public int jump(int[] nums) {
+        // 10/1 figure out on paper
+        int target = nums.length - 1;
+        int reachable = 0;
+        int jumps = 0;
+        
+        int[] steps = new int[nums.length];
+        if (nums.length == 1) {
+            System.out.println("No length");
+            return 0;
+        }
+        for (int i = 0; i <= reachable && i < nums.length; i++) {
+            int reach = reachable;
+            boolean increased = false;
+            for (int j = i; j <= reach && j < nums.length; j++) {
+                if (reachable < nums[j]+j) {
+                    reachable = nums[j]+j;
+                    increased = true;
+                }
+            }
+            if (increased) {
+                steps[i] = nums[i];
+                jumps++;
+            }
+            
+            
+            if (reachable >= target) {
+                System.out.println(i);
+                System.out.println(Arrays.toString(steps));
+                return jumps;
+            }
+            
+        }
+        return 0;
+    }
+    
+}
