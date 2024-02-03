@@ -42,27 +42,14 @@ To explore Michael's Level 2 Master Project, follow these steps:
 ## Juni Course Material
 
 ### Overview
-This folder encapsulates Michael Dasen's achievements in the Juni Level 2 Java Master program. It showcases his advanced skills in Java programming and demonstrates a deeper understanding of software development concepts.
+This folder contains several projects from Michael's coursework at Juni, using BlueJ and java to code several projects. These projects display some of Michael's coding skills and learning from his courses there.
 
-### Project Details
-- **Project Title:** [Insert Project Title]
-- **Description:** [Provide a brief overview of the project, its objectives, and functionality]
-- **Technologies Used:** [List the key technologies, frameworks, and tools employed in the project]
-- **Key Features:**
-  - [Highlight some notable features and functionalities]
-  - [Include any innovative solutions or approaches]
-
-### Project Structure
-Similar to the Level 2 Master Project, the folder structure is designed for clarity and organization. Key subfolders include:
-- **src:** Contains the source code for the project.
-- **docs:** Documentation related to the project (if applicable).
-- **assets:** Any additional assets, such as images or external libraries.
 
 ### Getting Started
-To delve into Michael's Level 2 Java Master project, follow these steps:
-1. Navigate to the "Juni Level 2 Java Master" folder.
-2. Explore the source code in the "src" folder.
-3. Refer to the documentation in the "docs" folder for additional insights (if available).
+To delve into Michael's Juni course Material, follow these steps:
+1. Navigate to the "Juni Course Material" folder.
+2. View the several documents for each project.
+3. Enter the desired project's JAVA file to view the code.
 
 
 ## Leetcode
