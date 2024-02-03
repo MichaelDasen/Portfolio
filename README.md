@@ -8,8 +8,8 @@ Welcome to Michael Dasen's portfolio! This repository contains two key folders: 
 In this folder, you will find the culmination of Michael Dasen's efforts in the Juni Java Level 2 program. This project serves as a testament to his mastery of Java and proficiency in software development.
 
 ### Project Details
-- **Project Title:** [Insert Project Title]
-- **Description:** [Provide a brief overview of the project, its objectives, and functionality]
+- **Project Title:** Tic Tac Toe
+- **Description:** This project simulates tic tac toe, being able to input coordinates against an ai 
 - **Technologies Used:** [List the key technologies, frameworks, and tools employed in the project]
 - **Key Features:**
   - [Highlight some notable features and functionalities]
