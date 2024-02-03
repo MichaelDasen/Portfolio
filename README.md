@@ -9,10 +9,10 @@ In this folder, you will find the culmination of Michael Dasen's efforts in the 
 
 ### Project Details
 - **Project Title:** Tic Tac Toe
-- **Description:** This project simulates tic tac toe, being able to input coordinates against an ai 
-- **Technologies Used:** [List the key technologies, frameworks, and tools employed in the project]
+- **Description:** This project simulates tic tac toe, being able to place the x's and o's of a tic tac toe board, and being able to play it completely virtually.
+- **Technologies Used:** Utilized the program blueJ to create the game
 - **Key Features:**
-  - [Highlight some notable features and functionalities]
+  - 
   - [Include any innovative solutions or approaches]
 
 ### Project Structure
