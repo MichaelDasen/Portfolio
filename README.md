@@ -37,9 +37,9 @@ In this folder, you will find the culmination of Michael Dasen's efforts in the 
 To explore Michael's Level 2 Master Project, follow these steps:
 1. Navigate to the "Juni Master Projects" folder.
 2. Enter the "Juni Java Level 2 Master project".
-3. View the code in the included JAVA file.
+3. View the code in the several included files.
 
-## Juni Level 2 Java Master
+## Juni Course Material
 
 ### Overview
 This folder encapsulates Michael Dasen's achievements in the Juni Level 2 Java Master program. It showcases his advanced skills in Java programming and demonstrates a deeper understanding of software development concepts.
