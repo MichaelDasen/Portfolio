@@ -38,6 +38,7 @@ class Main {
     	  }
     	}
     	else {
+          arr[row][column] = 'O';  
     	  System.out.println("Miss!");
     	}
     	System.out.println(" 0123456789");
