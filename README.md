@@ -64,4 +64,16 @@ To delve into Michael's Level 2 Java Master project, follow these steps:
 2. Explore the source code in the "src" folder.
 3. Refer to the documentation in the "docs" folder for additional insights (if available).
 
+
+## Leetcode
+
+### Overview
+This folder contains several leetcode java projects Michael has completed, which can be accessed in this folder. The names of the projects are also there, so if there are any questions about the objective of these projects, simply refer to them on the leetcode website.
+
+### Getting Started
+To delve into Michael's Leetcode projects, follow these steps:
+1. Navigate to the "Leetcode" folder, then the "Leetcode Java" folder.
+2. Choose which leetcode project you wish to view.
+3. Access the JAVA file to view his code.
+
 Feel free to reach out to Michael Dasen for any inquiries or further information. Thank you for exploring his portfolio!
