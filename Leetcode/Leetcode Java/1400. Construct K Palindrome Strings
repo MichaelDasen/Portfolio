@@ -1,0 +1,43 @@
+class Solution {
+    public boolean canConstruct(String s, int k) {
+        if (k == s.length()) {
+            System.out.println("used every element as 1");
+            return true;
+        }
+        if (k > s.length()) {
+            System.out.println("k is higher than length");
+            return false;
+        }
+        HashMap<Character,Integer> h = new HashMap<>();
+        for (int i = 0; i < s.length();i++) {
+            if (h.containsKey(s.charAt(i))) {
+                
+                h.put(s.charAt(i),h.get(s.charAt(i))+1);
+            }
+            else {
+                h.put(s.charAt(i),1);
+            }
+        }
+        boolean even = true;
+        int sing = 0;
+        HashMap<Character,Integer> sings = new HashMap<>();
+
+        for (int i = 0; i < s.length();i++) {
+           if (h.get(s.charAt(i)) % 2 == 1 && !sings.containsKey(s.charAt(i))) {
+               even = false;
+               sings.put(s.charAt(i),1);
+               sing++;
+               System.out.println("uneven element" + s.charAt(i));
+           }
+           
+        }
+        if (sing <= k) {
+            return true;
+        }
+        if (even) {
+            System.out.println("even elements");
+            return true;
+        }
+        return false;
+    }
+}

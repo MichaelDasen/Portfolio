@@ -1,0 +1,38 @@
+class Solution {
+    public String strWithout3a3b(int a, int b) {
+        String str = "";
+        int acount = a;
+        int bcount = b;
+        int aaa = 0;
+        int bbb = 0;
+        char A = 'a';
+        char B = 'b';
+        if (bcount > acount) {
+            A = 'b';
+            B = 'a';
+            int temp = acount;
+            acount = bcount;
+            bcount = temp;
+        }
+        
+        while (acount > 0) {
+            str += A;
+            acount--;
+            System.out.println("acount: " + acount + " - 1." + str );
+            if (acount > bcount) {
+                str+= A;
+                acount--;
+                System.out.println("acount: " + acount + " - 2." + str );
+            }
+            if (bcount > 0) {
+                str += B;
+                bcount--;
+                System.out.println("acount: " + acount + " - 3." + str );
+            }
+        }
+        return str;
+        
+        
+        
+    }
+}
